@@ -1,19 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*Header Styling */
 header{
   display: flex;
   border-bottom: 1px solid black;
   font-weight: bold;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
+  max-height: 80px;
+}
+
+header div{
+  width: 900px;
+  min-width: 200px;
+  margin-bottom: 10px;
 }
 
 header div img{
-  display: inline-block;
+
 }
 
 header div h1{
   position: relative;
   display: inline-block;
-  bottom: 25%
+  bottom: 20px;
 
 }
 header li{
@@ -31,4 +45,33 @@ header h1{
   font-weight: bold;
   color: MediumAquamarine;
   padding-left: 15px;
+}
+
+/* Main Container Styling */
+.container{
+  display: flex;
+  border: 1px solid black;
+  margin: 0 75px;
+}
+
+.column{
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+div{
+  border: 1px solid black;
+}
+
+#left{
+  width: 630px;
+}
+
+#middle{
+  width: 300px;
+}
+#right{
+  width: 240px;
 }
