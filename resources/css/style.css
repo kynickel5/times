@@ -70,6 +70,29 @@ header h1{
   margin: 20px;
 }
 
+.image{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.main{
+  font-size: 40px;
+}
+
+.headline{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.text{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+/* Individual Column Styling */
 #left{
   width: 630px;
   flex-direction: row;
@@ -88,11 +111,7 @@ header h1{
   font-weight: bold;
 }
 
-.image{
-  display: flex;
-  margin-bottom: 20px;
-}
-
+/* Column Image Styling */
 #image1{
   background-image: url("../images/img-story-main.png");
   height: 250px;
@@ -113,6 +132,7 @@ header h1{
   height: 250px;
 }
 
+/* Right Column News List Styling */
 #news_list{
   background-color: WhiteSmoke;
   font-family: Verdana;
@@ -126,19 +146,36 @@ header h1{
   padding: 10px;
 }
 
-.main{
-  font-size: 40px;
+/* Footer Styling */
+footer{
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content:center;
+  height: 250px;
+  flex-wrap: wrap;
 }
 
-.headline{
+footer h1{
   font-family: Georgia;
+  font-size: 16px;
   font-weight: bold;
-  font-size: 30px;
   color: white;
+  border-right: 1px solid white;
+  padding-right: 10px;
 }
 
-.text{
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
+footer li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+  margin-left: 30px;
+}
+
+footer p{
+  margin-top: 10px;
 }
